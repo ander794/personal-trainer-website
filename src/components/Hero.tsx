@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 import Image from "next/image";
+import doriImg from "../../public/dori.png";
 
 export default function Hero() {
   const t = useTranslations("hero");
@@ -77,7 +78,7 @@ export default function Hero() {
         >
           <div className="relative aspect-[3/4] w-full max-w-sm overflow-hidden rounded-3xl shadow-2xl sm:max-w-md lg:max-w-lg">
             <Image
-              src="/dori.png"
+              src={doriImg}
               alt="Dóri - Personal Trainer"
               fill
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 512px"

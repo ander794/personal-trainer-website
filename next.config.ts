@@ -6,6 +6,9 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 const nextConfig: NextConfig = {
   output: "export",
   basePath: "/personal-trainer-website",
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default withNextIntl(nextConfig);
