@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "title": "Dóri Trainer | Személyi Edző",
+    "description": "CrossFit, olimpiai súlyemelés, női edzés és pre/posztnatális fitness személyi edzéssel."
+  },
+  "nav": {
+    "home": "Főoldal",
+    "about": "Rólam",
+    "whyMe": "Miért én",
+    "expertise": "Szakterületek",
+    "workshops": "Workshopok",
+    "contact": "Kapcsolat"
+  },
+  "hero": {
+    "headline": "Erősebb tested, magabiztosabb éned",
+    "tagline": "Személyre szabott edzésprogramok nőknek – CrossFit, súlyemelés és pre/posztnatális fitness specialistával.",
+    "cta": "Jelentkezz edzésre"
+  },
+  "whyMe": {
+    "title": "Miért válassz engem?",
+    "benefits": [
+      {
+        "title": "Érezd magad erősebbnek",
+        "description": "Építs magabiztosságot a tested erejével – lépésről lépésre, a saját tempódban."
+      },
+      {
+        "title": "Csökkentsd a stresszt",
+        "description": "A mozgás a legjobb stresszoldó. Találd meg az egyensúlyt az edzésen keresztül."
+      },
+      {
+        "title": "Biztonságos izomépítés",
+        "description": "Tudatos, technikailag precíz edzésmódszerekkel építünk izmot, sérülés nélkül."
+      },
+      {
+        "title": "Javítsd a mobilitásod",
+        "description": "Előzd meg a sérüléseket és mozogj szabadabban a mindennapokban."
+      }
+    ]
+  },
+  "expertise": {
+    "title": "Szakterületek",
+    "bio": "Több éves tapasztalattal és folyamatos szakmai fejlődéssel segítek nőknek elérni a fitness céljaikat. Legyen szó erőnlétről, mobilitásról vagy a terhesség alatti/utáni edzésről – személyre szabott megoldásokat kínálok.",
+    "areas": [
+      {
+        "title": "CrossFit",
+        "description": "Változatos, intenzív edzésprogramok, amelyek fejlesztik az erőt, állóképességet és koordinációt."
+      },
+      {
+        "title": "Olimpiai Súlyemelés",
+        "description": "Szakít és lökés technika oktatás kezdőtől haladóig, biztonságos progresszióval."
+      },
+      {
+        "title": "Mobilitás & Erő",
+        "description": "Mozgásterjedelem javítása és funkcionális erő fejlesztése a mindennapi élethez."
+      },
+      {
+        "title": "Pre & Posztnatális Fitness",
+        "description": "Minősített pre- és posztnatális edző vagyok. Biztonságos, hatékony edzésprogramok terhesség alatt és után.",
+        "badge": "Minősített specialista"
+      }
+    ]
+  },
+  "workshops": {
+    "title": "Workshopok",
+    "subtitle": "Korábbi workshopok",
+    "noUpcoming": "Jelenleg nincs közelgő workshop. Kövesd a közösségi médiám az újdonságokért!",
+    "items": [
+      {
+        "title": "Csípő & Hát Mobilitás Workshop",
+        "description": "Gyakorlatok és technikák a csípő és a hát mozgékonyságának javítására, fájdalomcsökkentésre.",
+        "date": "2024"
+      },
+      {
+        "title": "Váll Mobilitás Workshop",
+        "description": "A váll stabilitása és mobilitása – gyakorlati megoldások a mindennapi problémákra.",
+        "date": "2024"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kapcsolat",
+    "subtitle": "Kérdésed van, vagy szeretnél elkezdeni edzeni? Írj bátran!",
+    "form": {
+      "name": "Név",
+      "namePlaceholder": "A neved",
+      "experience": "Sportban eltöltött évek",
+      "experiencePlaceholder": "pl. 3",
+      "message": "Üzenet",
+      "messagePlaceholder": "Írd le, miben segíthetek...",
+      "submit": "Küldés",
+      "sending": "Küldés...",
+      "success": "Köszönöm az üzeneted! Hamarosan válaszolok.",
+      "error": "Hiba történt. Kérlek próbáld újra, vagy írj emailt.",
+      "nameRequired": "Kérlek add meg a neved",
+      "messageRequired": "Kérlek írj egy üzenetet",
+      "experienceNumber": "Kérlek adj meg egy számot"
+    },
+    "emailLabel": "Vagy írj közvetlenül:"
+  },
+  "social": {
+    "title": "Kövess",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "threads": "Threads"
+  },
+  "footer": {
+    "rights": "Minden jog fenntartva."
+  }
+}

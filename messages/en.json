@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "title": "Dóri Trainer | Personal Trainer",
+    "description": "CrossFit, Olympic weightlifting, women's training, and pre/postnatal fitness with a personal touch."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "whyMe": "Why Me",
+    "expertise": "Expertise",
+    "workshops": "Workshops",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "Stronger body, more confident you",
+    "tagline": "Personalized training programs for women – with a CrossFit, weightlifting, and pre/postnatal fitness specialist.",
+    "cta": "Book a session"
+  },
+  "whyMe": {
+    "title": "Why choose me?",
+    "benefits": [
+      {
+        "title": "Feel stronger & more confident",
+        "description": "Build confidence through your body's strength – step by step, at your own pace."
+      },
+      {
+        "title": "Reduce stress through movement",
+        "description": "Exercise is the best stress relief. Find balance through training."
+      },
+      {
+        "title": "Build muscle safely",
+        "description": "We build muscle with mindful, technically precise methods – without injury."
+      },
+      {
+        "title": "Improve your mobility",
+        "description": "Prevent injuries and move freely in your everyday life."
+      }
+    ]
+  },
+  "expertise": {
+    "title": "Expertise",
+    "bio": "With years of experience and continuous professional development, I help women achieve their fitness goals. Whether it's strength, mobility, or pre/postnatal training – I offer personalized solutions.",
+    "areas": [
+      {
+        "title": "CrossFit",
+        "description": "Diverse, high-intensity programs that develop strength, endurance, and coordination."
+      },
+      {
+        "title": "Olympic Weightlifting",
+        "description": "Snatch and clean & jerk technique coaching from beginner to advanced, with safe progression."
+      },
+      {
+        "title": "Mobility & Strength",
+        "description": "Range of motion improvement and functional strength development for everyday life."
+      },
+      {
+        "title": "Pre & Postnatal Fitness",
+        "description": "I'm a certified pre- and postnatal trainer. Safe, effective training programs during and after pregnancy.",
+        "badge": "Certified Specialist"
+      }
+    ]
+  },
+  "workshops": {
+    "title": "Workshops",
+    "subtitle": "Past workshops",
+    "noUpcoming": "No upcoming workshops at this time. Follow my social media for updates!",
+    "items": [
+      {
+        "title": "Hip & Back Mobility Workshop",
+        "description": "Exercises and techniques for improving hip and back mobility, and reducing pain.",
+        "date": "2024"
+      },
+      {
+        "title": "Shoulder Mobility Workshop",
+        "description": "Shoulder stability and mobility – practical solutions for everyday issues.",
+        "date": "2024"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have questions or ready to start training? Don't hesitate to reach out!",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "experience": "Years of sport experience",
+      "experiencePlaceholder": "e.g. 3",
+      "message": "Message",
+      "messagePlaceholder": "Tell me how I can help...",
+      "submit": "Send",
+      "sending": "Sending...",
+      "success": "Thank you for your message! I'll get back to you soon.",
+      "error": "Something went wrong. Please try again or send an email.",
+      "nameRequired": "Please enter your name",
+      "messageRequired": "Please enter a message",
+      "experienceNumber": "Please enter a number"
+    },
+    "emailLabel": "Or write directly:"
+  },
+  "social": {
+    "title": "Follow me",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "threads": "Threads"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
