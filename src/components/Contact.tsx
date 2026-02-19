@@ -183,22 +183,14 @@ export default function Contact() {
               )}
             </form>
 
-            {/* Email divider */}
-            <div className="mt-8 flex items-center gap-4">
-              <div className="h-px flex-1 bg-border" />
-              <span className="text-xs font-medium uppercase tracking-wider text-muted">
-                {t("emailLabel")}
-              </span>
-              <div className="h-px flex-1 bg-border" />
-            </div>
-
-            <div className="mt-5 text-center">
+            {/* Email icon */}
+            <div className="mt-8 text-center">
               <a
                 href={`mailto:${contactEmail}`}
-                className="inline-flex items-center gap-2.5 rounded-xl border border-border px-6 py-3 text-base font-semibold text-primary transition-all hover:border-primary hover:bg-primary/5 hover:text-accent"
+                aria-label={contactEmail}
+                className="inline-flex items-center justify-center rounded-xl border border-border p-3 text-primary transition-all hover:border-primary hover:bg-primary/5 hover:text-accent"
               >
-                <Mail size={18} aria-hidden="true" />
-                {contactEmail}
+                <Mail size={22} aria-hidden="true" />
               </a>
             </div>
           </div>
