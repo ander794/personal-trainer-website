@@ -11,13 +11,6 @@ import ScrollReveal from "./ScrollReveal";
 function createSchema(t: (key: string) => string) {
   return z.object({
     name: z.string().min(1, t("nameRequired")),
-    experience: z
-      .string()
-      .optional()
-      .refine(
-        (val) => !val || !isNaN(Number(val)),
-        t("experienceNumber")
-      ),
     message: z.string().min(1, t("messageRequired")),
   });
 }
@@ -48,7 +41,6 @@ export default function Contact() {
         body: JSON.stringify({
           access_key: process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY,
           name: data.name,
-          experience: data.experience || "N/A",
           message: data.message,
           from_name: "Dóri Trainer Website",
           subject: `New contact from ${data.name}`,
@@ -96,61 +88,29 @@ export default function Contact() {
               className="space-y-6"
               noValidate
             >
-              {/* Name + Experience row */}
-              <div className="grid gap-6 sm:grid-cols-2">
-                <div>
-                  <label
-                    htmlFor="name"
-                    className="mb-2 block text-sm font-medium text-warm-dark"
-                  >
-                    {t("form.name")} *
-                  </label>
-                  <input
-                    {...register("name")}
-                    id="name"
-                    type="text"
-                    placeholder={t("form.namePlaceholder")}
-                    autoComplete="name"
-                    className="h-12 w-full rounded-xl border border-border bg-background px-4 text-base text-foreground placeholder:text-muted/40 transition-colors focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20"
-                    aria-invalid={!!errors.name}
-                    aria-describedby={errors.name ? "name-error" : undefined}
-                  />
-                  {errors.name && (
-                    <p id="name-error" className="mt-1.5 text-sm text-accent" role="alert">
-                      {errors.name.message}
-                    </p>
-                  )}
-                </div>
-
-                <div>
-                  <label
-                    htmlFor="experience"
-                    className="mb-2 block text-sm font-medium text-warm-dark"
-                  >
-                    {t("form.experience")}
-                  </label>
-                  <input
-                    {...register("experience")}
-                    id="experience"
-                    type="text"
-                    inputMode="numeric"
-                    placeholder={t("form.experiencePlaceholder")}
-                    className="h-12 w-full rounded-xl border border-border bg-background px-4 text-base text-foreground placeholder:text-muted/40 transition-colors focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20"
-                    aria-invalid={!!errors.experience}
-                    aria-describedby={
-                      errors.experience ? "experience-error" : undefined
-                    }
-                  />
-                  {errors.experience && (
-                    <p
-                      id="experience-error"
-                      className="mt-1.5 text-sm text-accent"
-                      role="alert"
-                    >
-                      {errors.experience.message}
-                    </p>
-                  )}
-                </div>
+              {/* Name */}
+              <div>
+                <label
+                  htmlFor="name"
+                  className="mb-2 block text-sm font-medium text-warm-dark"
+                >
+                  {t("form.name")} *
+                </label>
+                <input
+                  {...register("name")}
+                  id="name"
+                  type="text"
+                  placeholder={t("form.namePlaceholder")}
+                  autoComplete="name"
+                  className="h-12 w-full rounded-xl border border-border bg-background px-4 text-base text-foreground placeholder:text-muted/40 transition-colors focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20"
+                  aria-invalid={!!errors.name}
+                  aria-describedby={errors.name ? "name-error" : undefined}
+                />
+                {errors.name && (
+                  <p id="name-error" className="mt-1.5 text-sm text-accent" role="alert">
+                    {errors.name.message}
+                  </p>
+                )}
               </div>
 
               {/* Message */}
