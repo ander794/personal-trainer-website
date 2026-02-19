@@ -83,8 +83,6 @@
     "form": {
       "name": "Név",
       "namePlaceholder": "A neved",
-      "experience": "Sportban eltöltött évek",
-      "experiencePlaceholder": "pl. 3",
       "message": "Üzenet",
       "messagePlaceholder": "Írd le, miben segíthetek...",
       "submit": "Küldés",
@@ -92,8 +90,7 @@
       "success": "Köszönöm az üzeneted! Hamarosan válaszolok.",
       "error": "Hiba történt. Kérlek próbáld újra, vagy írj emailt.",
       "nameRequired": "Kérlek add meg a neved",
-      "messageRequired": "Kérlek írj egy üzenetet",
-      "experienceNumber": "Kérlek adj meg egy számot"
+      "messageRequired": "Kérlek írj egy üzenetet"
     },
     "emailLabel": "Vagy írj közvetlenül:"
   },

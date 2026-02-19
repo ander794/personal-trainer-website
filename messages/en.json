@@ -83,8 +83,6 @@
     "form": {
       "name": "Name",
       "namePlaceholder": "Your name",
-      "experience": "Years of sport experience",
-      "experiencePlaceholder": "e.g. 3",
       "message": "Message",
       "messagePlaceholder": "Tell me how I can help...",
       "submit": "Send",
@@ -92,8 +90,7 @@
       "success": "Thank you for your message! I'll get back to you soon.",
       "error": "Something went wrong. Please try again or send an email.",
       "nameRequired": "Please enter your name",
-      "messageRequired": "Please enter a message",
-      "experienceNumber": "Please enter a number"
+      "messageRequired": "Please enter a message"
     },
     "emailLabel": "Or write directly:"
   },
